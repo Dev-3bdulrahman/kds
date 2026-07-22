@@ -1,0 +1,11 @@
+{
+    "name": "Kitchen Display System",
+    "slug": "kds",
+    "version": "1.0.0",
+    "description": "Kitchen Display System for restaurants, cafes & workshops",
+    "description_ar": "شاشة عرض المطبخ والورشة للمطاعم والمقاهي",
+    "is_active": true,
+    "provider": "Dev3bdulrahman\\Kds\\KdsServiceProvider",
+    "dependencies": ["pos"],
+    "order": 19
+}

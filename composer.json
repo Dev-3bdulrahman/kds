@@ -1,0 +1,25 @@
+{
+  "name": "dev-3bdulrahman/kds",
+  "description": "Kitchen Display System for restaurants & workshops in Laravel ERP",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2|^8.3",
+    "laravel/framework": "^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dev3bdulrahman\\Kds\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dev3bdulrahman\\Kds\\KdsServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
