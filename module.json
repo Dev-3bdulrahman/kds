@@ -1,11 +1,13 @@
 {
-    "name": "Kitchen Display System",
-    "slug": "kds",
-    "version": "1.0.0",
-    "description": "Kitchen Display System for restaurants, cafes & workshops",
-    "description_ar": "شاشة عرض المطبخ والورشة للمطاعم والمقاهي",
-    "is_active": true,
-    "provider": "Dev3bdulrahman\\Kds\\KdsServiceProvider",
-    "dependencies": ["pos"],
-    "order": 19
+  "name": "Kitchen Display System",
+  "slug": "kds",
+  "version": "1.0.4",
+  "description": "Kitchen Display System for restaurants, cafes & workshops",
+  "description_ar": "\u0634\u0627\u0634\u0629 \u0639\u0631\u0636 \u0627\u0644\u0645\u0637\u0628\u062e \u0648\u0627\u0644\u0648\u0631\u0634\u0629 \u0644\u0644\u0645\u0637\u0627\u0639\u0645 \u0648\u0627\u0644\u0645\u0642\u0627\u0647\u064a",
+  "is_active": true,
+  "provider": "Dev3bdulrahman\\Kds\\KdsServiceProvider",
+  "dependencies": [
+    "pos"
+  ],
+  "order": 19
 }
